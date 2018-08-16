@@ -16,6 +16,7 @@ namespace DOC
         {
             HostFactory.Run(configure =>
             {
+
                 configure.Service<DocService>(service =>
                 {
                     service.ConstructUsing(s => new DocService());
